@@ -23,6 +23,14 @@ return {
 		end,
 	},
 
+	-- Session manager
+	-- Persistence.nvim
+	-- https://github.com/folke/persistence.nvim
+	{
+		"folke/persistence.nvim",
+		event = "BufReadPre", -- this will only start session saving when an actual file was opened
+	},
+
 	-- Notifications
 	-- nvim-notify
 	-- https://github.com/rcarriga/nvim-notify
