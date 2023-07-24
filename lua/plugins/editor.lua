@@ -172,6 +172,7 @@ return {
 	-- https://github.com/lukas-reineke/indent-blankline.nvim
 	{
 		"lukas-reineke/indent-blankline.nvim",
+		event = "BufReadPre", -- makes sure indent-blankline is loaded after dashboard.nvim
 		config = function()
 			vim.opt.list = true
 			-- vim.opt.listchars:append "space:⋅"
