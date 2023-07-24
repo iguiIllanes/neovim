@@ -13,7 +13,7 @@ return {
 
 		local on_attach = function(client, bufnr)
 			-- keybind options
-			local ops = { noremap = true, silent = true, buffer = bufnr }
+			local opts = { noremap = true, silent = true, buffer = bufnr }
 
 			-- set keybinds
 			keymap.set("n", "gf", "<cmd>Lspsaga lsp_finder<CR>", opts) -- show definition, references
