@@ -44,7 +44,7 @@ return {
 						[[                                                               ]             ]],
 						[[        Version ]]
 							.. NVIM_CONFIG_VERSION
-							.. [[           iguiIllanes/neovim          󰢱 ]]
+							.. [[           iguii/neovim                󰢱 ]]
 							.. _VERSION
 							.. [[       ]],
 						[[                                                                            ]],
@@ -52,7 +52,7 @@ return {
 					shortcut = {
 						{ desc = "󰊳 Update Packages", group = "@property", action = "Lazy update", key = "u" },
 						{
-							icon = " ",
+							icon = "󰈞 ",
 							icon_hl = "@variable",
 							desc = "Files",
 							group = "Label",
