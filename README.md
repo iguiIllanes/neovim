@@ -1,5 +1,5 @@
 # Neovim config
-
+![ScreenShot 2023-07-24 at 03 38 18](https://github.com/iguiIllanes/neovim/assets/22847626/412c54b8-83db-456a-adb5-111eabc7f32b)
 My custom neovim configuration
 
 ## Remove old configuration
