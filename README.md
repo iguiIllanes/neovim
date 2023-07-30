@@ -1,6 +1,7 @@
 # Neovim config
 
-![ScreenShot 2023-07-24 at 03 38 18](https://github.com/iguiIllanes/neovim/assets/22847626/412c54b8-83db-456a-adb5-111eabc7f32b)
+<img width="1214" alt="ScreenShot 2023-07-30 at 03 09 02@2x" src="https://github.com/iguii/neovim/assets/22847626/70c040f2-254a-4193-9ffd-420423ac057d">
+
 My custom neovim configuration
 
 ## Remove old configuration
