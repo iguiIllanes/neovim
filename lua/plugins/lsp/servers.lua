@@ -1,27 +1,34 @@
 return {
-	ensure_installed = {
-		"lua_ls", -- Lua
+	-- Example configuration:
+	-- <lsp_name> = {
+	-- 	-- check lsp documentattion for available settings
+	-- },
+	--
+	-- Alternatively, leave the table empty and use the default settings
+	-- <lsp_name> = {},
+
+	lua_ls = { -- Lua
+		Lua = {
+			-- make the language server recognize "vim" as global
+			diagnostics = {
+				globals = { "vim" },
+			},
+			workspace = {
+				-- make language server aware of Neovim runtime files
+				library = {
+					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
+					[vim.fn.stdpath("config") .. "/lua"] = true,
+				},
+			},
+		},
 	},
 
-	settings = {
-		-- Example configuration:
-		-- <lsp_name> = {
-		-- 	-- check lsp documentattion for available settings
-		-- },
-
-		lua_ls = { -- Lua
-			Lua = {
-				-- make the language server recognize "vim" as global
-				diagnostics = {
-					globals = { "vim" },
-				},
-				workspace = {
-					-- make language server aware of Neovim runtime files
-					library = {
-						[vim.fn.expand("$VIMRUNTIME/lua")] = true,
-						[vim.fn.stdpath("config") .. "/lua"] = true,
-					},
-				},
+	gopls = { -- Golang
+		gopls = {
+			completeUnimported = true,
+			usePlaceholders = true,
+			analyses = {
+				unusedparams = true,
 			},
 		},
 	},

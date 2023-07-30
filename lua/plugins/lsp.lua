@@ -90,26 +90,16 @@ return {
 
 		local servers = require("plugins.lsp.servers")
 		mason_lspconfig.setup({
-			ensure_installed = servers.ensure_installed,
-			-- {
-			-- 	"lua_ls", -- Lua
-			-- 	-- "tsserver", -- TypeScript
-			-- 	-- "html", -- HTML
-			-- 	-- "cssls", -- CSS
-			-- 	-- "tailwindcss", -- TailwindCSS
-			-- 	-- "gopls", -- Go
-			-- },
+			ensure_installed = vim.tbl_keys(servers),
 		})
 
 		mason_lspconfig.setup_handlers({
-			function()
-				for server, settings in pairs(servers.settings) do
-					lspconfig[server].setup({
-						capabilities = capabilities,
-						on_attach = on_attach,
-						settings = settings,
-					})
-				end
+			function(server_name)
+				lspconfig[server_name].setup({
+					capabilities = capabilities,
+					on_attach = on_attach,
+					settings = servers[server_name],
+				})
 			end,
 
 			-- function(server_name)

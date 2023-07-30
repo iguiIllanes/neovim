@@ -4,6 +4,10 @@ local diagnostics = require("null-ls").builtins.diagnostics
 return {
 	ensure_installed = {
 		"stylua", -- Lua
+		"gofumpt", -- Go
+		"golines", -- Go
+		"goimports-reviser", -- Go
+
 		-- "tsserver", -- TypeScript
 		-- "html", -- HTML
 		-- "cssls", -- CSS
