@@ -1,5 +1,5 @@
 return {
-"nvim-treesitter/nvim-treesitter",
+	"nvim-treesitter/nvim-treesitter",
 	config = function()
 		require("nvim-treesitter.configs").setup({
 			-- enable syntax highlighting
@@ -12,7 +12,7 @@ return {
 			autotag = { enable = true },
 			-- ensure these language parsers are installed
 			ensure_installed = {
-				"cpp",
+				-- "cpp",
 				"json",
 				"javascript",
 				"typescript",
@@ -30,6 +30,7 @@ return {
 				"gitignore",
 				"markdown",
 				"markdown_inline",
+				"go",
 			},
 			-- auto install above language parsers
 			auto_install = true,

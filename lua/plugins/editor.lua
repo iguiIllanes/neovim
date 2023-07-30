@@ -2,26 +2,8 @@
 --  EDITOR PLUGINS
 --
 return {
-	-- Colorscheme
-	-- Nighfly Colors
-	-- https://github.com/bluz71/vim-nightfly-colors
-	{
-		"bluz71/vim-nightfly-colors",
-		name = "nightfly",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			vim.cmd([[colorscheme nightfly]]) -- sets nightfly as colorscheme
-
-			-- colorscheme configuration
-			vim.g.nightflyItalics = true
-			vim.g.nightflyUndercurls = true
-			vim.g.nightflyUnderlineMatchParen = true
-
-			-- sets transparent background on gui and cterm versions
-			vim.cmd("highlight Normal guibg=NONE ctermbg=NONE")
-		end,
-	},
+	-- import colorschemes
+	require("plugins.colorscheme"),
 
 	-- Session manager
 	-- Persistence.nvim
@@ -38,9 +20,9 @@ return {
 		"rcarriga/nvim-notify",
 		config = function()
 			local notify = require("notify")
-			notify.setup({
-				background_colour = "#000000",
-			})
+			-- notify.setup({
+			-- 	background_colour = "#000000",
+			-- })
 			vim.notify = notify
 		end,
 	},
@@ -150,11 +132,6 @@ return {
 			vim.g.loaded = 1
 			vim.g.loaded_netrwPlugin = 1
 
-			vim.cmd([[ 
-        highlight NvimTreeIndentMarker guifg=#3FC5FF
-        highlight NvimTreeNormal guibg=NONE
-      ]])
-
 			require("nvim-tree").setup({
 				actions = {
 					open_file = {
@@ -178,6 +155,7 @@ return {
 			-- vim.opt.listchars:append "space:⋅"
 			-- vim.opt.listchars:append "eol:↴"
 			require("indent_blankline").setup({
+				space_char_blankline = " ",
 				show_current_context = true,
 				show_current_context_start = true,
 			})
@@ -193,7 +171,7 @@ return {
 		"folke/trouble.nvim",
 		dependencies = "nvim-tree/nvim-web-devicons",
 		config = function()
-			require("trouble").setup()
+			require("trouble").setup({ use_diagnostic_signs = true })
 		end,
 	},
 
@@ -312,6 +290,7 @@ return {
 					{ name = "luasnip" }, -- snippets
 					{ name = "buffer" }, -- text within current buffer
 					{ name = "path" }, -- file system paths
+					{ name = "cmdline" }, -- command line
 				}),
 				-- configure lspkind for vs-code like icons
 				formatting = {
@@ -322,5 +301,10 @@ return {
 				},
 			})
 		end,
+	},
+
+	-- UI extras
+	{
+		"stevearc/dressing.nvim",
 	},
 }

@@ -41,3 +41,7 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available 
 
 -- lazygit.nvim
 keymap.set("n", "<leader>gg", "<cmd>LazyGit<cr>")
+
+-- trouble.nvim
+keymap.set("n", "<leader>tt", "<cmd>TroubleToggle<cr>")
+keymap.set("n", "<leader>tr", "<cmd>TroubleRefresh<cr>")
