@@ -44,8 +44,18 @@ winget install --id=Neovim.Neovim  -e
 
 ### 2. Copy configuration
 
+#### On MacOS, Ubuntu/Debian
+
 ```
 $ cd ~/.config
+  git clone https://github.com/iguiIllanes/neovim.git nvim
+  nvim
+```
+
+#### On Windows
+
+```
+$ cd ~/AppData/Local/
   git clone https://github.com/iguiIllanes/neovim.git nvim
   nvim
 ```
