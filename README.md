@@ -33,10 +33,12 @@ $ brew install neovim
 #### On Ubuntu/Debian:
 
 ```
-$ sudo apt-get update && sudo apt-get install neovim
+sudo apt-get update && sudo apt-get install neovim
 ```
 
 #### On Windows:
+
+using [`Windows Package Manager`](https://github.com/microsoft/winget-cli)
 
 ```
 winget install --id=Neovim.Neovim  -e
@@ -47,17 +49,17 @@ winget install --id=Neovim.Neovim  -e
 #### On MacOS, Ubuntu/Debian
 
 ```
-$ cd ~/.config
-  git clone https://github.com/iguiIllanes/neovim.git nvim
-  nvim
+cd ~/.config
+git clone https://github.com/iguiIllanes/neovim.git nvim
+nvim
 ```
 
 #### On Windows
 
 ```
-$ cd ~/AppData/Local/
-  git clone https://github.com/iguiIllanes/neovim.git nvim
-  nvim
+cd ~/AppData/Local/
+git clone https://github.com/iguiIllanes/neovim.git nvim
+nvim
 ```
 
 ### 3. Wait for plugins to install
