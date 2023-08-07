@@ -71,6 +71,13 @@ return {
 							action = "LazyGit",
 							key = "gg",
 						},
+						{
+							icon = "󰑮 ",
+							desc = "quit neovim",
+							group = "Label",
+							action = "quit",
+							key = "q",
+						},
 					},
 				},
 			})
