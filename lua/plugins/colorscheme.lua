@@ -34,6 +34,7 @@ return {
 		priority = 1000,
 		config = function()
 			-- colorscheme configuration
+			vim.g.moonflyTransparent = true
 			vim.g.moonflyItalics = true
 			vim.g.moonflyUndercurls = true
 			vim.g.moonflyUnderlineMatchParen = true
