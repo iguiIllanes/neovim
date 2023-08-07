@@ -7,6 +7,7 @@ return {
 		"gofumpt", -- Go
 		"golines", -- Go
 		"goimports-reviser", -- Go
+		"prettier", -- JavaScript, TypeScript, HTML, CSS
 
 		-- "tsserver", -- TypeScript
 		-- "html", -- HTML

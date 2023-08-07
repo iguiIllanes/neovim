@@ -32,4 +32,6 @@ return {
 			},
 		},
 	},
+
+	jsonls = {}, -- JSON
 }
