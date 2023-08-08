@@ -60,10 +60,6 @@ return {
 			ui = {
 				-- enable nvim-web-devicons
 				devicon = true,
-				-- disable lightbulb
-				ui = {
-					enable = false,
-				},
 			},
 			-- keybinds for navigation in lspsaga window
 			move_in_saga = { prev = "<C-k>", next = "<C-j>" },
