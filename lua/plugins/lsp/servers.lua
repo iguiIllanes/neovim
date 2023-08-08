@@ -35,6 +35,8 @@ return {
 
 	jsonls = {}, -- JSON
 
+	html = {}, -- HTML
+
 	emmet_ls = { -- emmet
 		filetypes = { "html", "css", "scss", "javascript", "javascriptreact", "typescript", "typescriptreact" },
 		init_options = {
