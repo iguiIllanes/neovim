@@ -14,7 +14,7 @@
       - [On Windows](#on-windows)
     - [3. Wait for plugins to install](#3-wait-for-plugins-to-install)
     - [DONE!](#done)
-  - [Features](#features) - [Plugin List](#plugin-list) - [Colorscheme](#colorscheme) - [Editor](#editor)
+  - [Features](#features) - [Plugin List](#plugin-list) - [Colorscheme](#colorscheme) - [Editor](#editor) - [LSP's](#lsps) - [Extras](#extras)
   <!--toc:end-->
 
 <img width="1214" alt="ScreenShot 2023-07-30 at 03 09 02@2x" src="https://github.com/iguii/neovim/assets/22847626/70c040f2-254a-4193-9ffd-420423ac057d">
@@ -91,12 +91,12 @@ nvim
 
 #### Colorscheme
 
-| Name                                                                |
-| ------------------------------------------------------------------- |
-| [vim-nightly-colors](https://github.com/bluz71/vim-nightfly-colors) |
-| [vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors)  |
-| [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)         |
-| [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)           |
+| Name                                                                | Prefered |
+| ------------------------------------------------------------------- | :------: |
+| [vim-nightly-colors](https://github.com/bluz71/vim-nightfly-colors) |          |
+| [vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors)  |    \*    |
+| [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)         |          |
+| [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)           |          |
 
 #### Editor
 
@@ -126,3 +126,26 @@ nvim
 | [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)                       | Fuzzy Finder for pretty much anything                                     |
 | [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)                                          | Autocompletions                                                           |
 | [dressing.nvim](https://github.com/stevearc/dressing.nvim)                               | improves vim.ui default interfaces                                        |
+| [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)                      | vscode-like icons                                                         |
+
+### LSP's
+
+| Name                                                                         | Description                                      |
+| ---------------------------------------------------------------------------- | ------------------------------------------------ |
+| [mason.nvim](https://github.com/williamboman/mason.nvim)                     | LSP, linter, formatter and debugger installer    |
+| [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)                   | easy setup between LSP and neovim                |
+| [null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim)           | LSP diagnostics, code actions and format on save |
+| [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim) | complementary plugin                             |
+| [mason-null-ls.nvim](https://github.com/jay-babu/mason-null-ls.nvim)         | complementary plugin                             |
+| [lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim)                      | improve LSP experience                           |
+| [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)        | Adds better syntax hightlighting to neovim       |
+
+### Extras
+
+| Name                                                                 | Description            |
+| -------------------------------------------------------------------- | ---------------------- |
+| [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)          | dashboard              |
+| [LuaSnip](https://github.com/L3MON4D3/LuaSnip)                       | snippets               |
+| [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) | commonly used snippets |
+| [copilot.nim](https://github.com/github/copilot.vim)                 | Github's Copilot       |
+| [flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim)  | Flutter support        |
