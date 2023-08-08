@@ -23,6 +23,10 @@ return {
 		},
 	},
 
+	marksman = {
+		filetypes = { "markdown", ".md" },
+	}, -- Markdown
+
 	gopls = { -- Golang
 		gopls = {
 			completeUnimported = true,
