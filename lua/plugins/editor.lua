@@ -304,6 +304,8 @@ return {
 	},
 
 	-- UI extras
+	-- dressing.nvim
+	-- https://github.com/stevearc/dressing.nvim
 	{
 		"stevearc/dressing.nvim",
 	},
