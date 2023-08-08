@@ -34,4 +34,15 @@ return {
 	},
 
 	jsonls = {}, -- JSON
+
+	emmet_ls = { -- emmet
+		filetypes = { "html", "css", "scss", "javascript", "javascriptreact", "typescript", "typescriptreact" },
+		init_options = {
+			html = {
+				options = {
+					["bem.enabled"] = true,
+				},
+			},
+		},
+	},
 }
