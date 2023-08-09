@@ -58,6 +58,20 @@ return {
 							key = "u",
 						},
 						{
+							icon = "",
+							desc = "Restore session",
+							group = "@property",
+							action = "SessionRestore",
+							key = "L",
+						},
+						{
+							icon = "󰑬 ",
+							desc = "Show sessions",
+							group = "@property",
+							action = "Telescope session-lens search_session",
+							key = "ss",
+						},
+						{
 							icon = "󰈞 ",
 							desc = "Find Files",
 							group = "Label",
