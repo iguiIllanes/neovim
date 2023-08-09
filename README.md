@@ -102,7 +102,8 @@ nvim
 
 | Name                                                                                     | Description                                                               |
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| [persistence.nvim](https://github.com/folke/persistence.nvim)                            | Session manager                                                           |
+| [auto-session](https://github.com/rmagatti/auto-session)                                 | Session manager                                                           |
+| [session-lens](https://github.com/rmagatti/session-lens)                                 | Telescope integration for auto-session                                    |
 | [nvim-notify](https://github.com/rcarriga/nvim-notify)                                   | Vim Notifications                                                         |
 | [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)                     | HEX Color hightlighting                                                   |
 | [todo-comments.nvim](https://github.com/folke/todo-comments.nvim)                        | Add color hightlighting for TODO:, FIXME:, etc.                           |

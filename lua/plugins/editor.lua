@@ -6,11 +6,39 @@ return {
 	require("plugins.colorscheme"),
 
 	-- Session manager
-	-- Persistence.nvim
-	-- https://github.com/folke/persistence.nvim
+	-- auto-session
+	-- https://github.com/rmagatti/auto-session
 	{
-		"folke/persistence.nvim",
-		event = "BufReadPre", -- this will only start session saving when an actual file was opened
+		"rmagatti/auto-session",
+		config = function()
+			require("auto-session").setup({
+				auto_session_enable_last_session = false,
+				auto_session_root_dir = vim.fn.stdpath("data") .. "/sessions/",
+				auto_session_enabled = true,
+				auto_save_enabled = true,
+				auto_restore_enabled = false,
+				auto_session_suppress_dirs = {
+					"~/.cache",
+					"~/.local/share/nvim/backup",
+					"~/.local/share/nvim/swap",
+					"~/.local/share/nvim/undo",
+				},
+			})
+		end,
+	},
+
+	-- auto-session implementation for Telescope
+	-- session-lens
+	-- https://github.com/rmagatti/session-lens
+	{
+		"rmagatti/session-lens",
+		dependencies = { "rmagatti/auto-session", "nvim-telescope/telescope.nvim" },
+		after = "telescope.nvim",
+		config = function()
+			require("session-lens").setup({
+				path_display = { "shorten" },
+			})
+		end,
 	},
 
 	-- Notifications
