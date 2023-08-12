@@ -75,6 +75,11 @@ return {
 		end,
 	},
 
+	-- Adds support for . command after plugin map
+	-- vim-repeat
+	-- https://github.com/tpope/vim-repeat
+	{ "tpope/vim-repeat" },
+
 	-- Tabpage integration
 	-- bufferline.nvim
 	-- https://github.com/akinsho/bufferline.nvim
@@ -126,6 +131,16 @@ return {
 
 			-- make nvim-autopairs and nvim-cmp work together
 			require("cmp").event:on("confirm_done", require("nvim-autopairs.completion.cmp").on_confirm_done())
+		end,
+	},
+
+	-- Better motions
+	-- leap.nvim
+	-- https://github.com/ggandor/leap.nvim
+	{
+		"ggandor/leap.nvim",
+		config = function()
+			require("leap").add_default_mappings()
 		end,
 	},
 

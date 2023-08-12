@@ -112,6 +112,7 @@ nvim
 | [nvim-notify](https://github.com/rcarriga/nvim-notify)                                   | Vim Notifications                                                         |
 | [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)                     | HEX Color hightlighting                                                   |
 | [todo-comments.nvim](https://github.com/folke/todo-comments.nvim)                        | Add color hightlighting for TODO:, FIXME:, etc.                           |
+| [vim-repeat](https://github.com/tpope/vim-repeat)                                        | Adds support for `.` command after plugin map                             |
 | [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)                            | Tabpage integration                                                       |
 | [nvim-bufdel](https://github.com/ojroques/nvim-bufdel)                                   | Buffer deletion                                                           |
 | [nvim-sleuth](https://github.com/tpope/vim-sleuth)                                       | automatically adjust tabstop and shiftwidth                               |
@@ -119,6 +120,7 @@ nvim
 | [vim-sorround](https://github.com/tpope/vim-surround)                                    | Surroundings and replacements                                             |
 | [replaceWithRegister](https://github.com/vim-scripts/ReplaceWithRegister)                | Replace with register                                                     |
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs)                               | Autoclosing for (), [], {}, etc                                           |
+| [leap.nvim](https://github.com/ggandor/leap.nvim)                                        | Quick motions with 2 characters search                                    |
 | [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim)                               | Smooth scrolling                                                          |
 | [comment.nvim](https://github.com/numToStr/Comment.nvim)                                 | Comment lines with keymaps                                                |
 | [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)                              | File explorer                                                             |
