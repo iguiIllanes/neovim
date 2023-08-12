@@ -33,7 +33,6 @@ return {
 	{
 		"rmagatti/session-lens",
 		dependencies = { "rmagatti/auto-session", "nvim-telescope/telescope.nvim" },
-		after = "telescope.nvim",
 		config = function()
 			require("session-lens").setup({
 				path_display = { "shorten" },

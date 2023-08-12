@@ -79,7 +79,7 @@ return {
 							key = "f",
 						},
 						{
-							icon = "󰑬 ",
+							icon = " ",
 							desc = "Open LazyGit",
 							group = "Label",
 							action = "LazyGit",
