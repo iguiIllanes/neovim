@@ -4,6 +4,7 @@
 
 - [Neovim config](#neovim-config)
   - [Remove old configuration](#remove-old-configuration)
+  - [Usage](#usage)
   - [Installation](#installation)
     - [1. Install neovim](#1-install-neovim)
       - [On MacOS:](#on-macos)
@@ -34,6 +35,10 @@ $ rm ~/.local/share/nvim/
 ```
 
 ---
+
+## Usage
+
+refer to the [usage]() documentation.
 
 ## Installation
 
