@@ -31,6 +31,7 @@ return {
 				"markdown",
 				"markdown_inline",
 				"go",
+				"java",
 			},
 			-- auto install above language parsers
 			auto_install = true,

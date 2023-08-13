@@ -21,4 +21,9 @@ return {
 		dependencies = { "nvim-lua/plenary.nvim", "stevearc/dressing.nvim" },
 		config = true,
 	},
+
+	-- jdtls (Java LSP) extensions
+	-- nvim-jdtls
+	-- https://github.com/mfussenegger/nvim-jdtls
+	{ "mfussenegger/nvim-jdtls" },
 }
