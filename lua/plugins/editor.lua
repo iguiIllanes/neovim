@@ -307,8 +307,8 @@ return {
 			--load friendly-snippets
 			require("luasnip.loaders.from_vscode").lazy_load()
 
-			-- load custom snippets inside .config/nvim/snippets
-			require("luasnip.loaders.from_vscode").lazy_load({ paths = vim.fn.stdpath("config") .. "/snippets" })
+			-- load VSCode style custom snippets inside .config/nvim/snippets/vscode
+			require("luasnip.loaders.from_vscode").lazy_load({ paths = vim.fn.stdpath("config") .. "/snippets/vscode" })
 
 			vim.opt.completeopt = "menu,menuone,noselect"
 
