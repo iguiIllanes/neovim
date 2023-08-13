@@ -133,6 +133,7 @@ nvim
 | [telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | Fuzzy Finding in Telescope                                                |
 | [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)                       | Fuzzy Finder for pretty much anything                                     |
 | [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)                                          | Autocompletions                                                           |
+| [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)                               | Adds LuaSnip snippets to nvim-cmp                                         |
 | [dressing.nvim](https://github.com/stevearc/dressing.nvim)                               | improves vim.ui default interfaces                                        |
 | [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)                      | vscode-like icons                                                         |
 
