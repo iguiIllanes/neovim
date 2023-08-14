@@ -286,6 +286,11 @@ return {
 		end,
 	},
 
+	-- Snippets
+	-- friendly-snippets
+	-- https://github.com/rafamadriz/friendly-snippets
+	{ "rafamadriz/friendly-snippets" },
+
 	-- Autocompletion
 	-- nvim-cmp
 	-- https://github.com/hrsh7th/nvim-cmp
