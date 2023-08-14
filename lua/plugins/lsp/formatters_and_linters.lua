@@ -8,6 +8,7 @@ return {
 		"golines", -- Go
 		"goimports-reviser", -- Go
 		"prettier", -- JavaScript, TypeScript, HTML, CSS
+		"clang-format", -- C, C++, Objective-C, Objective-C++
 
 		-- "tsserver", -- TypeScript
 		-- "html", -- HTML
