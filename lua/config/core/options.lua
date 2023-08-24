@@ -9,6 +9,7 @@ opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
+opt.smartindent = true
 
 -- line wrapping
 opt.wrap = false
@@ -19,6 +20,9 @@ opt.smartcase = true
 
 -- cursor line
 opt.cursorline = true
+
+-- cmdline
+opt.cmdheight = 0
 
 -- appearance
 opt.termguicolors = true

@@ -299,7 +299,7 @@ return {
 		dependencies = {
 			"hrsh7th/cmp-buffer",
 			"hrsh7th/cmp-path",
-			"hrsh7th/cmp-cmdline",
+			-- "hrsh7th/cmp-cmdline",
 			"L3MON4D3/LuaSnip",
 			"saadparwaiz1/cmp_luasnip",
 			"onsails/lspkind.nvim",
@@ -338,7 +338,7 @@ return {
 					{ name = "luasnip" }, -- snippets
 					{ name = "buffer" }, -- text within current buffer
 					{ name = "path" }, -- file system paths
-					{ name = "cmdline" }, -- command line
+					-- { name = "cmdline" }, -- command line
 				}),
 				-- configure lspkind for vs-code like icons
 				formatting = {
@@ -350,6 +350,23 @@ return {
 			})
 		end,
 	},
+
+	-- Colorized brackets
+	-- nvim-ts-rainbow
+	-- https://github.com/mrjones2014/nvim-ts-rainbow
+	{ "mrjones2014/nvim-ts-rainbow" },
+
+	--Debug Adapter Protocol
+	-- nvim-dap
+	-- https://github.com/mfussenegger/nvim-dap
+	{
+		"mfussenegger/nvim-dap",
+	},
+
+	-- UI for nvim-dap
+	-- nvim-dap-ui
+	-- https://github.com/rcarriga/nvim-dap-ui
+	{ "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } },
 
 	-- UI extras
 	-- dressing.nvim

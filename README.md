@@ -151,10 +151,11 @@ nvim
 
 ### Extras
 
-| Name                                                                 | Description            |
-| -------------------------------------------------------------------- | ---------------------- |
-| [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)          | dashboard              |
-| [LuaSnip](https://github.com/L3MON4D3/LuaSnip)                       | snippets               |
-| [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) | commonly used snippets |
-| [copilot.nim](https://github.com/github/copilot.vim)                 | Github's Copilot       |
-| [flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim)  | Flutter support        |
+| Name                                                                 | Description                  |
+| -------------------------------------------------------------------- | ---------------------------- |
+| [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim)          | dashboard                    |
+| [LuaSnip](https://github.com/L3MON4D3/LuaSnip)                       | snippets                     |
+| [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) | commonly used snippets       |
+| [copilot.nim](https://github.com/github/copilot.vim)                 | Github's Copilot             |
+| [flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim)  | Flutter support              |
+| [which-key.nvim](https://github.com/folke/which-key.nvim)            | keymaps & keybindinds helper |
