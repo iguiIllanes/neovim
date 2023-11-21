@@ -374,4 +374,11 @@ return {
 	{
 		"stevearc/dressing.nvim",
 	},
+
+	-- UI component library for neovim
+	-- nui.nvim
+	-- https://github.com/MunifTanjim/nui.nvim
+	{
+		"MunifTanjim/nui.nvim",
+	},
 }
