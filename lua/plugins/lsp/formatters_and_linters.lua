@@ -21,5 +21,7 @@ return {
 		-- Examples:
 		-- formatting.stylua, -- formatter example
 		-- diagnostics.eslint_d, -- linter example
+		diagnostics.eslint,
+		formatting.prettier,
 	},
 }
