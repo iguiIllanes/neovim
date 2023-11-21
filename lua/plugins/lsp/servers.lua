@@ -51,4 +51,27 @@ return {
 			},
 		},
 	},
+
+	tsserver = { -- TypeScript
+		init_options = {
+			preferences = {
+				disableSuggestions = true,
+			},
+		},
+		-- commands = {
+		-- 	OrganizeImports = {
+		-- 		function()
+		-- 			local params = {
+		-- 				command = "_typescript.organizeImports",
+		-- 				arguments = { vim.api.nvim_buf_get_name(0) },
+		-- 				title = "",
+		-- 			}
+		-- 			vim.lsp.buf.execute_command(params)
+		-- 		end,
+		-- 		description = "Organize Imports",
+		-- 	},
+		-- },
+	},
+
+	eslint = {}, -- ESLint
 }
